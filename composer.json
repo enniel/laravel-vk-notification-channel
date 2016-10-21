@@ -20,7 +20,7 @@
     "require": {
         "php" : ">=5.5.9",
         "atehnix/vk-client": "~1.0.0",
-        "illuminate/notifications": "~5.1",
+        "illuminate/notifications": "~5.3",
         "illuminate/support": "~5.1"
     },
     "require-dev": {
