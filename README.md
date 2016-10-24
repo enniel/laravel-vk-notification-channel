@@ -63,7 +63,7 @@ In order for your notice to know who to send messages, you must add `routeNotifi
 - `forwarded()`: IDs of forwarded messages. Takes a parameter `forward_messages`.
 - `sticker()`: Sticker id. Takes a parameter `sticker_id`.
 - `notification()`: `1` or `true` if the message is a notification (for community messages). Takes a parameter `notification`.
-- `token()`: Access token. Passes a parameter `access_token`. For more information see [Authorization](https://github.com/enniel/vk-client#authorization) and [Getting a Token](https://vk.com/dev/access_token).
+- `token()`: Access token. Passes a parameter `access_token`. For more information see [Authorization](https://github.com/atehnix/vk-client#authorization) and [Getting a Token](https://vk.com/dev/access_token).
 - `to()`: Recipient. Takes an array like ['user_id', 1], where the first value corresponds to one of them: peer_id, user_id, domain, chat_id or user_ids.
 
 For more information about parameters see [messages.send](https://vk.com/dev/messages.send).
