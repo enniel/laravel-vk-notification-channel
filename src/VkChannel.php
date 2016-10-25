@@ -2,7 +2,7 @@
 
 namespace NotificationChannels\Vk;
 
-use NotificationChannels\Epochta\Exceptions\CouldNotSendNotification;
+use NotificationChannels\Vk\Exceptions\CouldNotSendNotification;
 use Illuminate\Notifications\Notification;
 use Illuminate\Support\Facades\Event;
 use ATehnix\VkClient\Client;
